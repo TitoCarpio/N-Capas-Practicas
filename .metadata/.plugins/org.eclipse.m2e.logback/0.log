@@ -999,3 +999,5 @@
 2023-04-12 12:21:48,712 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-04-12 12:21:48,718 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Oscar Carpio\Desktop\SpringPracticas\Library\src\test\resources
 2023-04-12 12:22:43,221 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-12 12:22:43,221 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-12 12:22:43,229 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Oscar Carpio\Desktop\SpringPracticas\Library\src\test\resources
