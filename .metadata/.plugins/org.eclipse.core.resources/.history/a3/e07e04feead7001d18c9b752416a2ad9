@@ -1,0 +1,10 @@
+package com.erickcg.collections;
+
+import java.util.Map;
+
+public class Example04 {
+	public static void main(String[] args) {
+		Map<char, V>
+	}
+
+}

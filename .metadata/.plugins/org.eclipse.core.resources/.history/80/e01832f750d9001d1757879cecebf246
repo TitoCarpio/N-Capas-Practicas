@@ -1,0 +1,29 @@
+package com.erickcg.library.contollers;
+
+import java.util.Calendar;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+
+
+@Controller  //Esto identifica mi clase como un controlador
+@RequestMapping("/library")
+public class LibraryController {
+
+	//@GetMapping("/") esta es la opcion 1 de como hacerlo
+	@RequestMapping(value = "/", method = RequestMethod.GET) //esta es la opcion 2
+	public String getMainPage(Model model) {
+		//obteniendo la hora del sistema
+		String tiempo = Calendar.getInstance().getTime().toString();
+		model.addAttribute("time", tiempo);
+		
+		return "main";
+	}
+	
+	
+	
+}

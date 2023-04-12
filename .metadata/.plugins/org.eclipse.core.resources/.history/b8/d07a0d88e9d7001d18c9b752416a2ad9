@@ -1,0 +1,19 @@
+package com.erickcg.collections;
+
+import java.util.TreeSet;
+
+public class Example03 {
+
+	public static void main(String[] args) {
+		TreeSet<String> set = new HashSet<>();
+		set.add("Z-el");
+		set.add("d-el");
+		set.add("f-el");
+		set.add("a-el");
+		
+		System.out.println(set);
+		
+
+	}
+
+}

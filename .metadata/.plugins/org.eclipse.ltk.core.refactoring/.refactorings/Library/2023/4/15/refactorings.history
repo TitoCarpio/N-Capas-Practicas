@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Library/src/main/resources/templates/book.htlm&apos; to &apos;book.html&apos;" description="Rename resource &apos;book.htlm&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/book.htlm" name="book.html" stamp="1681320734084" updateReferences="true"/>
+</session>

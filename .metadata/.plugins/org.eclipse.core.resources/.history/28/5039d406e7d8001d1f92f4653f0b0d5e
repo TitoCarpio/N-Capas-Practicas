@@ -1,0 +1,19 @@
+package com.erickcg.library.models.dtos;
+
+public class BookSearchDTO {
+	private String isbn;
+	private String title;
+	private String owner;
+	//constructor
+	public BookSearchDTO(String isbn, String title, String owner) {
+		super();
+		this.isbn = isbn;
+		this.title = title;
+		this.owner = owner;
+	}
+	
+	
+	
+	
+
+}
