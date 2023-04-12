@@ -74,7 +74,7 @@
   <main>
     <h1> Library (<a href="/library/all"> Ver Libros </a>) </h1>
     <h2> 23/03/2023 14:00 </h2>
-    <form method="post" th:action="@{/library/book}">
+    <form method="post" th:action="@{library/book}">
       <label for="isbn-field">
         ISBN:
         <input type="text" name="isbn" id="isbn-field">
