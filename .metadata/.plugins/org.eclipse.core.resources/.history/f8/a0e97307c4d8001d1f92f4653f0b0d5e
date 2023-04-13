@@ -1,9 +1,0 @@
-package com.erickcg.library.contollers;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class LibraryController {
-
-	
-}

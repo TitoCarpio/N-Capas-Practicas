@@ -62,7 +62,7 @@
 </head>
 <body>
   <main>
-    <table>
+    <table >
       <thead>
         <tr>
           <th> ISBN </th>
@@ -70,34 +70,11 @@
         </tr>
       </thead>
       <tbody>
-          <tr>
-            <td> 0261102303 </td>
-            <td> Lord of the Rings </td>
-          </tr>
-          <tr>
-            <td> 0007441428 </td>
-            <td> Game of Thrones </td>
-          </tr>
-          <tr>
-            <td> 0747581088 </td>
-            <td> Harry Potter and the Half-Blood Prince </td>
-          </tr>
-          <tr>
-            <td> 1401248195 </td>
-            <td> Watchmen </td>
-          </tr>
-          <tr>
-            <td> 030788743X </td>
-            <td> Ready player one </td>
-          </tr>
-          <tr>
-            <td> 843760494X </td>
-            <td> Cien Años de Soledad </td>
-          </tr>
-          <tr>
-            <td> 0553804367 </td>
-            <td> A Briefer History of Time </td>
-          </tr>
+          <tr th:each="tmpLibros: ${books}">
+            <td th:text ="${tmpLibros.isbn}"/>
+            <td th:text ="${tmpLibros.title}"/>
+          </trth:each="tmpLibros: ${books}">
+          
       </tbody>
     </table>
   </main>

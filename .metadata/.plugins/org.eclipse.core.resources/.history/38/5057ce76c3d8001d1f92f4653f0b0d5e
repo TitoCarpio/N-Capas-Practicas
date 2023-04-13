@@ -1,7 +1,0 @@
-package com.erickcg.library.contollers;
-
-@Controll
-public class LibraryController {
-
-	
-}

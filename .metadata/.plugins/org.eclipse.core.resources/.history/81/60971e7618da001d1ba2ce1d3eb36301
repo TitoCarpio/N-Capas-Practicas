@@ -1,0 +1,7 @@
+package com.erickcg.library.models.entities;
+
+public class Book {
+	
+	private String isbn;
+	private String 
+}

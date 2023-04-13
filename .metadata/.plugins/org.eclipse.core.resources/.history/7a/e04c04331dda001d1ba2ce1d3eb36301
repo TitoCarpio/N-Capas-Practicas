@@ -1,0 +1,5 @@
+package com.erickcg.library.models.dtos;
+
+public class SaveBookDTO {
+
+}
